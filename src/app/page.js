@@ -1,10 +1,9 @@
-import Image from "next/image";
-import styles from "./page.module.css";
 
-export default function Home() {
+export default function Page() {
   return (
-    <div className={styles.page}>
-      <h1 className={styles.title}>Welcome to Next.js!</h1>
+    <div>
+      <h1>Bem-vindo ao desafio 🚀</h1>
+      <p>Escolha uma opção no menu para começar.</p>
     </div>
   );
 }

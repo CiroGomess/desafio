@@ -1,6 +1,5 @@
-;import { NextResponse } from "next/server";
+import { NextResponse } from "next/server";
 
-// Simulação de dados do menu da API
 const menuData = [
   {
     programa: "financeiro",
